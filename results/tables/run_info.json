@@ -1,0 +1,159 @@
+{
+ "env": {
+  "python": "3.11.16",
+  "tensorflow": "2.20.0",
+  "keras": "3.13.2",
+  "numpy": "2.1.3",
+  "gpu": [
+   "/physical_device:GPU:0"
+  ],
+  "config": {
+   "SEED": 42,
+   "IMG_STORE": 50,
+   "IMG_SIZE": 224,
+   "BATCH": 64,
+   "EPOCHS": 12,
+   "PATIENCE": 3,
+   "LR_PRETRAINED": 0.0001,
+   "LR_SCRATCH": 0.0003,
+   "SPLIT": [
+    0.64,
+    0.16,
+    0.2
+   ],
+   "FUSION_SEEDS": 5,
+   "PRETRAINED": true
+  },
+  "english_roots": [
+   "loaded from images_50.npz (built in the Colab session)"
+  ],
+  "bengali_roots": [
+   "loaded from images_50.npz (built in the Colab session)"
+  ],
+  "classes": [
+   "BN_0",
+   "BN_1",
+   "BN_10",
+   "BN_11",
+   "BN_12",
+   "BN_13",
+   "BN_14",
+   "BN_15",
+   "BN_16",
+   "BN_17",
+   "BN_18",
+   "BN_19",
+   "BN_2",
+   "BN_20",
+   "BN_21",
+   "BN_22",
+   "BN_23",
+   "BN_24",
+   "BN_25",
+   "BN_26",
+   "BN_27",
+   "BN_28",
+   "BN_29",
+   "BN_3",
+   "BN_30",
+   "BN_31",
+   "BN_32",
+   "BN_33",
+   "BN_34",
+   "BN_35",
+   "BN_36",
+   "BN_37",
+   "BN_4",
+   "BN_5",
+   "BN_6",
+   "BN_7",
+   "BN_8",
+   "BN_9",
+   "EN_0",
+   "EN_1",
+   "EN_2",
+   "EN_3",
+   "EN_4",
+   "EN_5",
+   "EN_6",
+   "EN_7",
+   "EN_8",
+   "EN_9",
+   "EN_A",
+   "EN_B",
+   "EN_C",
+   "EN_D",
+   "EN_E",
+   "EN_F",
+   "EN_G",
+   "EN_H",
+   "EN_I",
+   "EN_J",
+   "EN_K",
+   "EN_L",
+   "EN_M",
+   "EN_N",
+   "EN_O",
+   "EN_P",
+   "EN_Q",
+   "EN_R",
+   "EN_S",
+   "EN_T",
+   "EN_U",
+   "EN_V",
+   "EN_W",
+   "EN_X",
+   "EN_Y",
+   "EN_Z",
+   "EN__"
+  ],
+  "gpu_name_this_run": "NVIDIA H100 80GB HBM3",
+  "trained_on": {
+   "AlexNet": "Google Colab GPU (first session)",
+   "BenSignNet": "Google Colab GPU (first session)",
+   "MobileNetV2": "Google Colab GPU (first session)",
+   "InceptionV3": "Google Colab GPU (first session)",
+   "VGG16": "NVIDIA H100 80GB HBM3",
+   "Xception": "NVIDIA H100 80GB HBM3",
+   "DenseNet201": "NVIDIA H100 80GB HBM3",
+   "NASNetMobile": "NVIDIA H100 80GB HBM3"
+  }
+ },
+ "duplicates": {
+  "total_images": 68081,
+  "exact_duplicates_removed": 12166,
+  "conflicting_label_hashes": 0,
+  "removed_by_language": {
+   "Bengali": 1,
+   "English": 12165
+  }
+ },
+ "near_duplicates": {
+  "Bengali": {
+   "test_images": 2519,
+   "identical_dhash_in_train_%": 0.0,
+   "within_2_bits_%": 1.07,
+   "within_5_bits_%": 11.67
+  },
+  "English": {
+   "test_images": 8665,
+   "identical_dhash_in_train_%": 53.69,
+   "within_2_bits_%": 94.01,
+   "within_5_bits_%": 99.72
+  }
+ },
+ "data": {
+  "classes": 75,
+  "originals_after_dedup": 55915,
+  "train_originals": 35785,
+  "train_augmented_added": 33590,
+  "train_total": 69375,
+  "per_class_train": 925,
+  "val": 8946,
+  "test": 11184,
+  "test_by_language": {
+   "English": 8665,
+   "Bengali": 2519
+  }
+ }
+}

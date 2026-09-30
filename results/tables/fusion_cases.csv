@@ -1,0 +1,25 @@
+combination,subset,n,all_members_correct,members_disagree_fusion_correct,members_disagree_fusion_wrong,all_members_wrong_fusion_correct,all_members_wrong_fusion_wrong,fusion_fixed_best_member,fusion_broke_best_member
+SignLink (AlexNet+MobileNetV2+Xception),All,11184,10909,177,49,3,46,37,25
+SignLink (AlexNet+MobileNetV2+Xception),English,8665,8665,0,0,0,0,0,0
+SignLink (AlexNet+MobileNetV2+Xception),Bengali,2519,2244,177,49,3,46,37,25
+AlexNet+MobileNetV2,All,11184,10940,126,42,9,67,22,36
+AlexNet+MobileNetV2,English,8665,8665,0,0,0,0,0,0
+AlexNet+MobileNetV2,Bengali,2519,2275,126,42,9,67,22,36
+AlexNet+Xception,All,11184,10930,140,42,10,62,25,18
+AlexNet+Xception,English,8665,8665,0,0,0,0,0,0
+AlexNet+Xception,Bengali,2519,2265,140,42,10,62,25,18
+MobileNetV2+Xception,All,11184,11019,70,32,6,57,42,25
+MobileNetV2+Xception,English,8665,8665,0,0,0,0,0,0
+MobileNetV2+Xception,Bengali,2519,2354,70,32,6,57,42,25
+AlexNet+DenseNet201+BenSignNet,All,11184,10622,457,47,1,57,22,27
+AlexNet+DenseNet201+BenSignNet,English,8665,8665,0,0,0,0,0,0
+AlexNet+DenseNet201+BenSignNet,Bengali,2519,1957,457,47,1,57,22,27
+DenseNet201+InceptionV3+VGG16,All,11184,10972,124,32,2,54,32,17
+DenseNet201+InceptionV3+VGG16,English,8665,8665,0,0,0,0,0,0
+DenseNet201+InceptionV3+VGG16,Bengali,2519,2307,124,32,2,54,32,17
+Top-3 by validation (DenseNet201+Xception+InceptionV3),All,11184,10996,97,43,1,47,34,21
+Top-3 by validation (DenseNet201+Xception+InceptionV3),English,8665,8665,0,0,0,0,0,0
+Top-3 by validation (DenseNet201+Xception+InceptionV3),Bengali,2519,2331,97,43,1,47,34,21
+All eight backbones,All,11184,10560,537,60,1,26,44,27
+All eight backbones,English,8665,8665,0,0,0,0,0,0
+All eight backbones,Bengali,2519,1895,537,60,1,26,44,27
